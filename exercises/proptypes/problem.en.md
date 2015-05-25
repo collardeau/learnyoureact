@@ -12,7 +12,7 @@ propTypes: {
 }
 ```
 
-You can add validations to props which is passed from parent Component by writting like above. 
+You can add validations to props which are passed from parent Component by writing like above. 
 If unexpected values is passed, React.js prints `Warning` in console.
 
 
@@ -59,8 +59,8 @@ module.exports = TodoBox;
 ```
 
 After writing codes, try to do `learnyoureact run program.js.` 
-You can see that React.js print `Warning` in console. 
-Read the sentence and fix Todo that React.js doesn't print `Warning` in console 
+You can see that React.js prints `Warning` in console. 
+Read the sentence and fix Todo so that React.js doesn't print `Warning` in console.
 You must use `propTypes`.
 
 After fixing codes, do `node program.js` and access `http://localhost:3000` , check the real HTML is outputted.
